@@ -3,29 +3,125 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pricing & Sessions</title>
+    <title>Reiki888</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <nav>
-        <a href="index.html">Home</a> |
-        <a href="about.html">About</a> |
-        <a href="contact.html">Contact</a> |
-        <a href="pricing.html">Pricing and Session Availability</a>
-    </nav>
+    <!-- Navbar -->
+    <header class="container-fluid px-sm-4">
+        <nav class="navbar navbar-expand-md bg-dark fixed-top">
+            <a href="index.html"><img src="images/reiki888 logo.webp" alt="Reiki888 Logo" width="150"></a>
+        
+                <!-- Mobile Menu Button -->
+            <button class="navbar-toggler bg-light" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span>
+            </button>
 
-    <h1>Pricing & Session Availability</h1>
-    <p>Here you can list your pricing and available session times.</p>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto">
+                
+                    <li class="nav-item">
+                        <a class="nav-link text-light" href="index.html">Home</a>
+                    </li>
 
-    <!-- Example content -->
-    <h2>Session Pricing</h2>
-    <ul>
-        <li>45-minute session: $85</li>
-        <li>5 Sessions Package: $400</li>
-        <li>Distance healing is available on request.</li>
-    </ul>
+                    <li class="nav-item">
+                        <a class="nav-link active text-light" aria-current="page" href="about.html">About</a>
+                    </li>
 
-    <h2>Availability</h2>
-    <p>Available: Monday to Friday, 9am - 5pm</p>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle text-light" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Services</a>
+                        <ul class="dropdown-menu bg-body-tertiary">
+                            <li><a class="dropdown-item" href="pricing.html">Pricing Info</a><li>
+
+                            <li><hr class="dropdown-divider"></li>
+                            <li><a class="dropdown-item" href="#">My Healing Approach</a><li></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-light" href="contact.html">Contact</a>
+                    </li>
+                </ul>
+
+                <!-- Search Form -->
+                <form class="d-flex column-gap-2" role="search">
+                    <input class="form-control bg-body-tertiary" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline" type="submit">Search</button>
+                </form>
+            </div>
+        </nav>
+    </header>
+
+    <div class="container py-5">
+        <h1>Pricing & Session Availability</h1>
+        <p>Here you can list your pricing and available session times.</p>
+
+        <!-- Example content -->
+        <h2>Session Pricing</h2>
+        <ul>
+            <li>45-minute session: $85</li>
+            <li>5 Sessions Package: $400</li>
+            <li>Distance healing is available on request.</li>
+        </ul>
+
+        <h2>Availability</h2>
+        <p>Available: Monday to Friday, 9am - 5pm</p>
+    </div>
+
+    <!-- Footer -->
+
+    <footer class="py-5 bg-dark">
+        <div class="container px-4 px-sm-0">
+            <div class="row">
+
+                <div class="col-6 col-md mb-4">
+                    <h5 class="h5pink text-uppercase">Reiki888</h5>
+                    <ul class="nav d-flex flex-column row-gap-2">
+                        <li class="nav-item"><a href="index.html">Home</a></li>
+                        <li class="nav-item"><a href="About.html">About</a></li>
+                        <li class="nav-item"><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-6 col-md mb-4">
+                    <h5 class="h5pink text-uppercase">Company</h5>
+                    <ul class="nav d-flex flex-column row-gap-2">
+                        <li class="nav-item"><a href="#">Programmes</a></li>
+                        <li class="nav-item"><a href="pricing.html">Pricing</a></li>
+                        <li class="nav-item"><a href="#">Site Map</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-md-5 offset-lg-1 mb-3">
+                    <form action="">
+                        <h5 class="h5pink">Subscribe to our blog site</h5>
+                        <p class="text-light">Read about our latest news and packages</p>
+                        <div class="d-flex flex-column flex-sm-row w-100 gap-2">
+                            <label for="blog1" class="visually-hidden">Email Address</label>
+                            <input type="text" id="blog1" class="form-control" placeholder="Email Address">
+                            <button class="btn btn-outline" type="submit">Submit</button>
+                        </div>
+                    </form>
+                </div>
+
+            </div>
+
+            <hr class="text-light">
+            
+            <div class="d-flex flex-row justify-content-center py-3 my-4 gap-3">
+                <a href="#"><i class="bi bi-facebook text-light fs-5 mb-4"></i></a>
+                <a href="#"><i class="bi bi-snapchat text-light fs-5 mb-4"></i></a>
+                <a href="#"><i class="bi bi-linkedin text-light fs-5 mb-4"></i></a>
+                <a href="#"><i class="bi bi-instagram text-light fs-5 mb-4"></i></a>
+            </div>
+
+            <div class="d-flex flex-column flex-sm-row justify-content-center py-2 py-lg-3 my-4 text-center">
+                <p class="text-light fw-light">Copyright &copy; 2025 Reiki888 Inc. All rights reserved, do not copy any part of this site </p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- footer End -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js" integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO" crossorigin="anonymous"></script>
 </body>
 </html>

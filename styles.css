@@ -12,11 +12,7 @@
     }
 
     body {
-    padding-top: 75px;
-    }
-
-    body.home {
-    padding-top: 0;
+    padding-top: 200px;
     }
 
     /* btn-outline colors */
@@ -102,8 +98,8 @@
     background-attachment: fixed;
     background-position: center;
     background-size: cover;
+    margin-top: 75px;
     }
-
 
     .resorts-image {
     height: 220px;
